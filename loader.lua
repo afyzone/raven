@@ -182,7 +182,7 @@ getgenv().settings = {
             bind = 'M',
             pov = 'third', -- third, first
             mode = 'toggle', -- toggle, hold
-            delay = 0.030
+            delay = 0.020
         },
 
         no_clip_macro = {
