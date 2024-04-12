@@ -180,6 +180,7 @@ getgenv().settings = {
         builtin_macro = {
             enabled = false,
             bind = 'M',
+            pov = 'third', -- third, first
             mode = 'toggle', -- toggle, hold
             delay = 0.030
         },
