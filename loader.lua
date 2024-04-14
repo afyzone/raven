@@ -51,7 +51,7 @@ getgenv().settings = {
      
     cam_settings = {
         realistic_movement = true, -- true = realistic_mouse_movement_settings, false = robotic_mouse_movement
-        disable_on_check = false, -- Disables if: Camera is in third person, shift lock is enabled, right click is held
+        disable_on_check = false, -- Disables if: camera is in third person, shift lock is not enabled, right click is not held
         
         realistic_mouse_movement_settings = {
             smoothing = {
