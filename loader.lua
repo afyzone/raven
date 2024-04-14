@@ -51,6 +51,7 @@ getgenv().settings = {
      
     cam_settings = {
         realistic_movement = true, -- true = realistic_mouse_movement_settings, false = robotic_mouse_movement
+        disable_on_check = false, -- Disables if: Camera is in third person, shift lock is enabled, right click is held
         
         realistic_mouse_movement_settings = {
             smoothing = {
@@ -148,6 +149,8 @@ getgenv().settings = {
     },
 
     misc = {
+        disable_sitting = true, -- Makes your character unable to sit
+        
         cam_spin = {
             enabled = false,
             speed = 20,
