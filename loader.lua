@@ -231,6 +231,10 @@ getgenv().settings = {
         raid_awareness = {
             enabled = true,
             toggle_bind = 'T',
+
+            copy_raid = false, -- on execution this copies the exact code to share for others to have your marked players appear on their screen
+            apply_raid = nil, -- replace nil with what 'copy_raid' gives you
+
             mark_affiliates = true, -- marks all crewmates if they are in the same crew as target
             snipe_detection = true, -- if true it will automatically enable esp on players who joined you.
             only_target_marked_raid_players = false, -- Aimbots will only target raid marked players
