@@ -26,10 +26,6 @@ getgenv().settings = {
         anti_curve = true,
         aim_type = 'Nearest Point', -- Nearest Player, Nearest Part, Nearest Point
         hit_parts = {
-            --[[
-                Empty = all parts;
-                -- {"HumanoidRootPart", "Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso", "RightUpperLeg"}
-            ]]
             'HumanoidRootPart',
             'Head',
             'LeftHand',
@@ -82,10 +78,6 @@ getgenv().settings = {
 
         aim_type = 'Nearest Part', -- Nearest Player, Nearest Part, Nearest Point
         hit_parts = {
-            --[[
-                Empty = all parts;
-                {"HumanoidRootPart", "Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso", "RightUpperLeg"}
-            ]]
             'HumanoidRootPart',
             'Head',
             'LeftHand',
