@@ -257,7 +257,12 @@ getgenv().settings = {
 
         auto_settings = {
             low_gfx = false,
-            mute_boombox = true
+            mute_boombox = true,
+
+            field_of_view = { -- FOV Number (70 - 120)
+                enabled = true,
+                value = 70
+            }
         },
         
         inventory_organizer = {
