@@ -150,7 +150,7 @@ getgenv().settings = {
         },
 
         air_shot = { -- this is the number the values max on
-            jumping_value = 50,
+            jumping_value = 30,
             falling_value = -15
         },
 
