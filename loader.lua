@@ -24,7 +24,7 @@ getgenv().settings = {
 
         hit_chance = 100,
         anti_curve = true,
-        aim_type = 'Nearest Point', -- Nearest Player, Nearest Part, Nearest Point
+        aim_type = 'Nearest Optimal Point', -- Nearest Player, Nearest Part, Nearest Point, Nearest Optimal Point
         hit_parts = {
             'HumanoidRootPart',
             'Head',
@@ -76,7 +76,7 @@ getgenv().settings = {
             fov_visible = false
         },
 
-        aim_type = 'Nearest Part', -- Nearest Player, Nearest Part, Nearest Point
+        aim_type = 'Nearest Optimal Point', -- Nearest Player, Nearest Part, Nearest Point, Nearest Optimal Point
         hit_parts = {
             'HumanoidRootPart',
             'Head',
