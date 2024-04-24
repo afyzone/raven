@@ -1,14 +1,9 @@
 getgenv().settings = {
     script_key = '',
 
-    silent_aim_bind = 'z',
-    cam_aim_bind = 'z',
-    activate_type = 'hold', -- toggle, hold
-
-    target_lockon = 'e',
+    target_lockon = '', -- Use '' if you want FFA mode (targets everyone without a bind)
     target_type = 'toggle', -- toggle, hold
 
-    triggerbot_type = 'hold', -- toggle, hold
     toggle_all_visuals = 'P',
 
     show_target = false,
@@ -16,6 +11,9 @@ getgenv().settings = {
     target_colors = Color3.fromRGB(255, 255, 255),
     
     silent_settings = {
+        silent_aim_bind = 'z',
+        activate_type = 'hold', -- toggle, hold
+
         silent_fov = {
             fov_color = Color3.fromRGB(195, 209, 38),
             fov_radius = 300,
@@ -46,6 +44,9 @@ getgenv().settings = {
     },
      
     cam_settings = {
+        cam_aim_bind = 'z',
+        activate_type = 'hold', -- toggle, hold
+
         realistic_movement = true, -- true = realistic_mouse_movement_settings, false = robotic_mouse_movement
         disable_on_check = false, -- Disables if: camera is in third person, shift lock is not enabled, right click is not held
         
@@ -207,6 +208,8 @@ getgenv().settings = {
         triggerbot = {
             enabled = true,
             bind = 'Z',
+
+            triggerbot_type = 'hold', -- toggle, hold
             auto_reload = false,
             delay = 0.01,
 
