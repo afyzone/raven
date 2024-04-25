@@ -143,6 +143,7 @@ getgenv().settings = {
 
     misc = {
         disable_sitting = true, -- Makes your character unable to sit
+        no_gun_delay = true,
         
         cam_spin = {
             enabled = false,
